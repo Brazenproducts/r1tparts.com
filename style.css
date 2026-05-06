@@ -76,3 +76,11 @@ footer{background:#0a0b0e;border-top:1px solid var(--border);padding:40px 0 20px
   .review-card .product-img{float:none;max-width:100%;margin:0 0 16px 0}
   nav .links{gap:10px}
 }
+
+/* Product images in cards */
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+  object-fit: cover;
+}
